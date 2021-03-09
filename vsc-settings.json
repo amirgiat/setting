@@ -1,0 +1,62 @@
+{
+    "[twig]": {
+        "editor.defaultFormatter": "mblode.twig-language-2"
+    },
+    "editor.fontSize": 17,
+    "debug.javascript.suggestPrettyPrinting": false,
+    "pretty-formatter.braceStyle": "expand",
+    "pretty-formatter.ternaryLine": false,
+    "pretty-formatter.variableList": "each",
+    "pretty-formatter.commentLine": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveSassCompile.settings.excludeList": [
+        "**/node_modules/**",
+        ".vscode/**",
+        "**/.history/**",
+        "**/modules/**",
+        "**/plugins/**",
+        "**/vendor/**",
+        "**/libraries/**",
+        "**/vendor_old/**"
+    ],
+    "liveSassCompile.settings.formats": [
+        {
+          "format": "expanded",
+          "extensionName": ".css",
+          "savePath": "~/../css"
+        }
+    ],
+    "liveSassCompile.settings.includeItems": [
+        "**/sass/*.scss",
+        "**/scss/*.scss",
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "editor.columnSelection": false,
+    "[scss]": {
+        "editor.defaultFormatter": "sasa.vscode-sass-format"
+    },
+    "npm.exclude": "",
+
+    
+    "dependencies": {
+          "lodash": "^4.17.0"
+    },
+    
+    "typeAcquisition": {
+        "include": [
+            "jquery"
+        ]
+    },
+
+    "php.validate.executablePath": "",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "editor.fontFamily": " 'monospace','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'"
+
+
+ }
+
+    
